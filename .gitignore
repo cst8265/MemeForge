@@ -212,15 +212,23 @@ $RECYCLE.BIN/
 *.lnk
 
 # End of https://www.toptal.com/developers/gitignore/api/windows,macos,composer,visualstudiocode,jetbrains+all,sublimetext,nova
-# --- CST8265 Forum (instructor) ---
+
+# --- CST8265 MemeForge (instructor) ---
+
 # Generated SQLite database (rebuild with: composer reset-db)
 database/forum.sqlite
 database/*.sqlite
+
 # User-uploaded / cached images
 public/uploads/*
 !public/uploads/.gitkeep
+
 # Safety net: never commit any instructor answer key / vulnerability notes
 *Answer Key*
 *ANSWER*KEY*
 *VULNERAB*
 *vulnerab*solution*
+
+# Attacker Site
+attacker/*
+clickjack.html
